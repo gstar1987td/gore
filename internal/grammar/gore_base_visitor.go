@@ -1,4 +1,4 @@
-// Code generated from C:/Users/yangy/go/src/gstar1987td/gore/internal/grammar\Gore.g4 by ANTLR 4.8. DO NOT EDIT.
+// Code generated from E:/Go/src/gore/internal/grammar\Gore.g4 by ANTLR 4.8. DO NOT EDIT.
 
 package grammar // Gore
 import "github.com/antlr/antlr4/runtime/Go/antlr"

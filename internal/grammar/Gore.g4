@@ -5,7 +5,7 @@ sourceFile
     ;
 
 ruleID
-    : 'rule:' id=IDENTIFIER version=VERSION
+    : 'rule:' id=IDENTIFIER version=FLOAT_LIT
     ;
 
 context
@@ -96,14 +96,9 @@ integer
 
 eos
     : EOF
-    | {lineTerminatorAhead()}?
-    | {checkPreviousTokenText("}")}?
+    | {p.lineTerminatorAhead()}?
+    | {p.checkPreviousTokenText("}")}?
     ;
-
-VARIABLE: 'var.'IDENTIFIER;
-FACT : FACT_PREF.IDENTIFIER;
-VERSION                : [0-9]*'.'[0-9]*;
-FACT_PREF              : ([a-z]|'_')+;
 
 /*
     literals
@@ -115,12 +110,10 @@ FLOAT_LIT              : DECIMALS ('.' DECIMALS? EXPONENT? | EXPONENT)
                        | '.' DECIMALS EXPONENT?
                        ;
 
-WS                     : [ \t]+             -> channel(HIDDEN);
-COMMENT                : '/*' .*? '*/'      -> channel(HIDDEN);
-TERMINATOR             : [\r\n]+            -> channel(HIDDEN);
-LINE_COMMENT           : '//' ~[\r\n]*      -> channel(HIDDEN);
-
 IDENTIFIER             : LETTER (LETTER | UNICODE_DIGIT)*;
+
+VARIABLE: 'var.'IDENTIFIER;
+FACT : FACT_PREF '.' FACT_FILED;
 
 /*
    operators
@@ -144,6 +137,8 @@ HEX_LIT                : '0' [xX] HEX_DIGIT+;
 /*
     fragment
 */
+fragment FACT_PREF     : ([a-z]|'_')+;
+fragment FACT_FILED    : ([a-zA-Z0-9]|'_')+;
 fragment DECIMALS
     : [0-9]+
     ;
@@ -449,3 +444,8 @@ fragment UNICODE_LETTER
     | [\uFFD2-\uFFD7]
     | [\uFFDA-\uFFDC]
     ;
+
+WS                     : [ \t]+             -> channel(HIDDEN);
+COMMENT                : '/*' .*? '*/'      -> channel(HIDDEN);
+TERMINATOR             : [\r\n]+            -> channel(HIDDEN);
+LINE_COMMENT           : '//' ~[\r\n]*      -> channel(HIDDEN);

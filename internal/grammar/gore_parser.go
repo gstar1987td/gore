@@ -1,4 +1,4 @@
-// Code generated from C:/Users/yangy/go/src/gstar1987td/gore/internal/grammar\Gore.g4 by ANTLR 4.8. DO NOT EDIT.
+// Code generated from E:/Go/src/gore/internal/grammar\Gore.g4 by ANTLR 4.8. DO NOT EDIT.
 
 package grammar // Gore
 import (
@@ -15,7 +15,7 @@ var _ = reflect.Copy
 var _ = strconv.Itoa
 
 var parserATN = []uint16{
-	3, 24715, 42794, 33075, 47597, 16764, 15335, 30598, 22884, 3, 54, 237,
+	3, 24715, 42794, 33075, 47597, 16764, 15335, 30598, 22884, 3, 52, 237,
 	4, 2, 9, 2, 4, 3, 9, 3, 4, 4, 9, 4, 4, 5, 9, 5, 4, 6, 9, 6, 4, 7, 9, 7,
 	4, 8, 9, 8, 4, 9, 9, 9, 4, 10, 9, 10, 4, 11, 9, 11, 4, 12, 9, 12, 4, 13,
 	9, 13, 4, 14, 9, 14, 4, 15, 9, 15, 4, 16, 9, 16, 4, 17, 9, 17, 4, 18, 9,
@@ -41,8 +41,8 @@ var parserATN = []uint16{
 	5, 16, 221, 10, 16, 3, 17, 3, 17, 3, 17, 3, 17, 3, 17, 5, 17, 228, 10,
 	17, 3, 18, 3, 18, 3, 19, 3, 19, 3, 19, 5, 19, 235, 10, 19, 3, 19, 2, 3,
 	20, 20, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34,
-	36, 2, 7, 3, 2, 44, 45, 3, 2, 23, 24, 3, 2, 26, 28, 3, 2, 29, 30, 4, 2,
-	35, 35, 53, 54, 2, 259, 2, 38, 3, 2, 2, 2, 4, 48, 3, 2, 2, 2, 6, 60, 3,
+	36, 2, 7, 3, 2, 38, 39, 3, 2, 23, 24, 3, 2, 26, 28, 3, 2, 29, 30, 4, 2,
+	31, 31, 47, 48, 2, 259, 2, 38, 3, 2, 2, 2, 4, 48, 3, 2, 2, 2, 6, 60, 3,
 	2, 2, 2, 8, 67, 3, 2, 2, 2, 10, 75, 3, 2, 2, 2, 12, 90, 3, 2, 2, 2, 14,
 	92, 3, 2, 2, 2, 16, 102, 3, 2, 2, 2, 18, 113, 3, 2, 2, 2, 20, 129, 3, 2,
 	2, 2, 22, 185, 3, 2, 2, 2, 24, 206, 3, 2, 2, 2, 26, 214, 3, 2, 2, 2, 28,
@@ -50,8 +50,8 @@ var parserATN = []uint16{
 	2, 2, 2, 36, 234, 3, 2, 2, 2, 38, 39, 5, 4, 3, 2, 39, 45, 5, 36, 19, 2,
 	40, 41, 5, 6, 4, 2, 41, 42, 5, 36, 19, 2, 42, 44, 3, 2, 2, 2, 43, 40, 3,
 	2, 2, 2, 44, 47, 3, 2, 2, 2, 45, 43, 3, 2, 2, 2, 45, 46, 3, 2, 2, 2, 46,
-	3, 3, 2, 2, 2, 47, 45, 3, 2, 2, 2, 48, 49, 7, 3, 2, 2, 49, 50, 7, 43, 2,
-	2, 50, 51, 7, 33, 2, 2, 51, 5, 3, 2, 2, 2, 52, 53, 7, 4, 2, 2, 53, 54,
+	3, 3, 2, 2, 2, 47, 45, 3, 2, 2, 2, 48, 49, 7, 3, 2, 2, 49, 50, 7, 35, 2,
+	2, 50, 51, 7, 34, 2, 2, 51, 5, 3, 2, 2, 2, 52, 53, 7, 4, 2, 2, 53, 54,
 	5, 8, 5, 2, 54, 55, 7, 5, 2, 2, 55, 61, 3, 2, 2, 2, 56, 57, 7, 6, 2, 2,
 	57, 58, 5, 10, 6, 2, 58, 59, 7, 5, 2, 2, 59, 61, 3, 2, 2, 2, 60, 52, 3,
 	2, 2, 2, 60, 56, 3, 2, 2, 2, 61, 7, 3, 2, 2, 2, 62, 63, 5, 20, 11, 2, 63,
@@ -60,10 +60,10 @@ var parserATN = []uint16{
 	3, 2, 2, 2, 70, 71, 5, 12, 7, 2, 71, 72, 5, 36, 19, 2, 72, 74, 3, 2, 2,
 	2, 73, 70, 3, 2, 2, 2, 74, 77, 3, 2, 2, 2, 75, 73, 3, 2, 2, 2, 75, 76,
 	3, 2, 2, 2, 76, 11, 3, 2, 2, 2, 77, 75, 3, 2, 2, 2, 78, 91, 5, 18, 10,
-	2, 79, 80, 7, 31, 2, 2, 80, 81, 7, 46, 2, 2, 81, 91, 5, 20, 11, 2, 82,
+	2, 79, 80, 7, 36, 2, 2, 80, 81, 7, 40, 2, 2, 81, 91, 5, 20, 11, 2, 82,
 	91, 7, 7, 2, 2, 83, 91, 5, 14, 8, 2, 84, 85, 7, 8, 2, 2, 85, 86, 5, 10,
 	6, 2, 86, 87, 7, 9, 2, 2, 87, 88, 5, 10, 6, 2, 88, 91, 3, 2, 2, 2, 89,
-	91, 7, 52, 2, 2, 90, 78, 3, 2, 2, 2, 90, 79, 3, 2, 2, 2, 90, 82, 3, 2,
+	91, 7, 46, 2, 2, 90, 78, 3, 2, 2, 2, 90, 79, 3, 2, 2, 2, 90, 82, 3, 2,
 	2, 2, 90, 83, 3, 2, 2, 2, 90, 84, 3, 2, 2, 2, 90, 89, 3, 2, 2, 2, 91, 13,
 	3, 2, 2, 2, 92, 93, 7, 10, 2, 2, 93, 94, 5, 20, 11, 2, 94, 100, 5, 16,
 	9, 2, 95, 98, 7, 11, 2, 2, 96, 99, 5, 14, 8, 2, 97, 99, 5, 16, 9, 2, 98,
@@ -72,23 +72,23 @@ var parserATN = []uint16{
 	103, 104, 5, 12, 7, 2, 104, 105, 5, 36, 19, 2, 105, 107, 3, 2, 2, 2, 106,
 	103, 3, 2, 2, 2, 107, 110, 3, 2, 2, 2, 108, 106, 3, 2, 2, 2, 108, 109,
 	3, 2, 2, 2, 109, 111, 3, 2, 2, 2, 110, 108, 3, 2, 2, 2, 111, 112, 7, 13,
-	2, 2, 112, 17, 3, 2, 2, 2, 113, 114, 7, 31, 2, 2, 114, 115, 9, 2, 2, 2,
+	2, 2, 112, 17, 3, 2, 2, 2, 113, 114, 7, 36, 2, 2, 114, 115, 9, 2, 2, 2,
 	115, 19, 3, 2, 2, 2, 116, 117, 8, 11, 1, 2, 117, 118, 9, 3, 2, 2, 118,
 	119, 7, 18, 2, 2, 119, 122, 5, 20, 11, 2, 120, 121, 7, 19, 2, 2, 121, 123,
 	5, 20, 11, 2, 122, 120, 3, 2, 2, 2, 123, 124, 3, 2, 2, 2, 124, 122, 3,
 	2, 2, 2, 124, 125, 3, 2, 2, 2, 125, 126, 3, 2, 2, 2, 126, 127, 7, 20, 2,
 	2, 127, 130, 3, 2, 2, 2, 128, 130, 5, 22, 12, 2, 129, 116, 3, 2, 2, 2,
 	129, 128, 3, 2, 2, 2, 130, 178, 3, 2, 2, 2, 131, 132, 12, 10, 2, 2, 132,
-	133, 7, 47, 2, 2, 133, 177, 5, 20, 11, 11, 134, 135, 12, 9, 2, 2, 135,
-	136, 7, 48, 2, 2, 136, 177, 5, 20, 11, 10, 137, 138, 12, 8, 2, 2, 138,
-	139, 7, 49, 2, 2, 139, 177, 5, 20, 11, 9, 140, 141, 12, 7, 2, 2, 141, 142,
-	7, 50, 2, 2, 142, 177, 5, 20, 11, 8, 143, 144, 12, 6, 2, 2, 144, 145, 7,
+	133, 7, 41, 2, 2, 133, 177, 5, 20, 11, 11, 134, 135, 12, 9, 2, 2, 135,
+	136, 7, 42, 2, 2, 136, 177, 5, 20, 11, 10, 137, 138, 12, 8, 2, 2, 138,
+	139, 7, 43, 2, 2, 139, 177, 5, 20, 11, 9, 140, 141, 12, 7, 2, 2, 141, 142,
+	7, 44, 2, 2, 142, 177, 5, 20, 11, 8, 143, 144, 12, 6, 2, 2, 144, 145, 7,
 	21, 2, 2, 145, 177, 5, 20, 11, 7, 146, 147, 12, 5, 2, 2, 147, 148, 7, 22,
 	2, 2, 148, 177, 5, 20, 11, 6, 149, 150, 12, 13, 2, 2, 150, 152, 7, 14,
 	2, 2, 151, 153, 7, 15, 2, 2, 152, 151, 3, 2, 2, 2, 152, 153, 3, 2, 2, 2,
-	153, 154, 3, 2, 2, 2, 154, 177, 7, 37, 2, 2, 155, 157, 12, 12, 2, 2, 156,
+	153, 154, 3, 2, 2, 2, 154, 177, 7, 33, 2, 2, 155, 157, 12, 12, 2, 2, 156,
 	158, 7, 15, 2, 2, 157, 156, 3, 2, 2, 2, 157, 158, 3, 2, 2, 2, 158, 159,
-	3, 2, 2, 2, 159, 160, 7, 16, 2, 2, 160, 177, 7, 36, 2, 2, 161, 163, 12,
+	3, 2, 2, 2, 159, 160, 7, 16, 2, 2, 160, 177, 7, 32, 2, 2, 161, 163, 12,
 	11, 2, 2, 162, 164, 7, 15, 2, 2, 163, 162, 3, 2, 2, 2, 163, 164, 3, 2,
 	2, 2, 164, 165, 3, 2, 2, 2, 165, 166, 7, 17, 2, 2, 166, 167, 7, 18, 2,
 	2, 167, 170, 5, 20, 11, 2, 168, 169, 7, 19, 2, 2, 169, 171, 5, 20, 11,
@@ -101,21 +101,21 @@ var parserATN = []uint16{
 	2, 2, 2, 180, 178, 3, 2, 2, 2, 181, 182, 5, 28, 15, 2, 182, 183, 5, 22,
 	12, 2, 183, 186, 3, 2, 2, 2, 184, 186, 5, 24, 13, 2, 185, 181, 3, 2, 2,
 	2, 185, 184, 3, 2, 2, 2, 186, 23, 3, 2, 2, 2, 187, 207, 5, 26, 14, 2, 188,
-	189, 7, 51, 2, 2, 189, 190, 7, 18, 2, 2, 190, 193, 5, 20, 11, 2, 191, 192,
+	189, 7, 45, 2, 2, 189, 190, 7, 18, 2, 2, 190, 193, 5, 20, 11, 2, 191, 192,
 	7, 19, 2, 2, 192, 194, 5, 32, 17, 2, 193, 191, 3, 2, 2, 2, 193, 194, 3,
 	2, 2, 2, 194, 195, 3, 2, 2, 2, 195, 196, 7, 20, 2, 2, 196, 207, 3, 2, 2,
 	2, 197, 198, 7, 25, 2, 2, 198, 199, 7, 18, 2, 2, 199, 202, 5, 20, 11, 2,
-	200, 201, 7, 19, 2, 2, 201, 203, 7, 35, 2, 2, 202, 200, 3, 2, 2, 2, 202,
+	200, 201, 7, 19, 2, 2, 201, 203, 7, 31, 2, 2, 202, 200, 3, 2, 2, 2, 202,
 	203, 3, 2, 2, 2, 203, 204, 3, 2, 2, 2, 204, 205, 7, 20, 2, 2, 205, 207,
 	3, 2, 2, 2, 206, 187, 3, 2, 2, 2, 206, 188, 3, 2, 2, 2, 206, 197, 3, 2,
 	2, 2, 207, 25, 3, 2, 2, 2, 208, 215, 5, 32, 17, 2, 209, 215, 5, 30, 16,
 	2, 210, 211, 7, 18, 2, 2, 211, 212, 5, 20, 11, 2, 212, 213, 7, 20, 2, 2,
 	213, 215, 3, 2, 2, 2, 214, 208, 3, 2, 2, 2, 214, 209, 3, 2, 2, 2, 214,
 	210, 3, 2, 2, 2, 215, 27, 3, 2, 2, 2, 216, 217, 9, 4, 2, 2, 217, 29, 3,
-	2, 2, 2, 218, 221, 7, 31, 2, 2, 219, 221, 7, 32, 2, 2, 220, 218, 3, 2,
+	2, 2, 2, 218, 221, 7, 36, 2, 2, 219, 221, 7, 37, 2, 2, 220, 218, 3, 2,
 	2, 2, 220, 219, 3, 2, 2, 2, 221, 31, 3, 2, 2, 2, 222, 228, 5, 34, 18, 2,
-	223, 228, 7, 36, 2, 2, 224, 228, 7, 38, 2, 2, 225, 228, 9, 5, 2, 2, 226,
-	228, 7, 37, 2, 2, 227, 222, 3, 2, 2, 2, 227, 223, 3, 2, 2, 2, 227, 224,
+	223, 228, 7, 32, 2, 2, 224, 228, 7, 34, 2, 2, 225, 228, 9, 5, 2, 2, 226,
+	228, 7, 33, 2, 2, 227, 222, 3, 2, 2, 2, 227, 223, 3, 2, 2, 2, 227, 224,
 	3, 2, 2, 2, 227, 225, 3, 2, 2, 2, 227, 226, 3, 2, 2, 2, 228, 33, 3, 2,
 	2, 2, 229, 230, 9, 6, 2, 2, 230, 35, 3, 2, 2, 2, 231, 235, 7, 2, 2, 3,
 	232, 235, 6, 19, 11, 2, 233, 235, 6, 19, 12, 2, 234, 231, 3, 2, 2, 2, 234,
@@ -130,16 +130,16 @@ var literalNames = []string{
 	"", "'rule:'", "'condition:'", "';'", "'run:'", "'return'", "'try:'", "'exception:'",
 	"'if'", "'else'", "'then'", "'end'", "'is'", "'not'", "'like'", "'in'",
 	"'('", "','", "')'", "'&&'", "'||'", "'max'", "'min'", "'round'", "'!'",
-	"'~'", "'-'", "'true'", "'false'", "", "", "", "", "", "", "'null'", "",
-	"", "", "", "", "", "'++'", "'--'", "'='", "", "", "", "", "", "'bingo'",
+	"'~'", "'-'", "'true'", "'false'", "", "", "'null'", "", "", "", "", "'++'",
+	"'--'", "'='", "", "", "", "", "", "'bingo'",
 }
 var symbolicNames = []string{
 	"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
-	"", "", "", "", "", "", "", "", "", "", "", "VARIABLE", "FACT", "VERSION",
-	"FACT_PREF", "DECIMAL_LIT", "RAW_STRING_LIT", "NIL_LIT", "FLOAT_LIT", "WS",
-	"COMMENT", "TERMINATOR", "LINE_COMMENT", "IDENTIFIER", "PLUS_PLUS", "MINUS_MINUS",
-	"ASSIGN", "HIGH_PRIORITY_MATH", "LOW_PRIORITY_MATH", "BIT_OPER", "COMPARE_OPER",
-	"CONVERT_TYPE", "BINGO", "OCTAL_LIT", "HEX_LIT",
+	"", "", "", "", "", "", "", "", "", "", "", "DECIMAL_LIT", "RAW_STRING_LIT",
+	"NIL_LIT", "FLOAT_LIT", "IDENTIFIER", "VARIABLE", "FACT", "PLUS_PLUS",
+	"MINUS_MINUS", "ASSIGN", "HIGH_PRIORITY_MATH", "LOW_PRIORITY_MATH", "BIT_OPER",
+	"COMPARE_OPER", "CONVERT_TYPE", "BINGO", "OCTAL_LIT", "HEX_LIT", "WS",
+	"COMMENT", "TERMINATOR", "LINE_COMMENT",
 }
 
 var ruleNames = []string{
@@ -204,30 +204,28 @@ const (
 	GoreParserT__25              = 26
 	GoreParserT__26              = 27
 	GoreParserT__27              = 28
-	GoreParserVARIABLE           = 29
-	GoreParserFACT               = 30
-	GoreParserVERSION            = 31
-	GoreParserFACT_PREF          = 32
-	GoreParserDECIMAL_LIT        = 33
-	GoreParserRAW_STRING_LIT     = 34
-	GoreParserNIL_LIT            = 35
-	GoreParserFLOAT_LIT          = 36
-	GoreParserWS                 = 37
-	GoreParserCOMMENT            = 38
-	GoreParserTERMINATOR         = 39
-	GoreParserLINE_COMMENT       = 40
-	GoreParserIDENTIFIER         = 41
-	GoreParserPLUS_PLUS          = 42
-	GoreParserMINUS_MINUS        = 43
-	GoreParserASSIGN             = 44
-	GoreParserHIGH_PRIORITY_MATH = 45
-	GoreParserLOW_PRIORITY_MATH  = 46
-	GoreParserBIT_OPER           = 47
-	GoreParserCOMPARE_OPER       = 48
-	GoreParserCONVERT_TYPE       = 49
-	GoreParserBINGO              = 50
-	GoreParserOCTAL_LIT          = 51
-	GoreParserHEX_LIT            = 52
+	GoreParserDECIMAL_LIT        = 29
+	GoreParserRAW_STRING_LIT     = 30
+	GoreParserNIL_LIT            = 31
+	GoreParserFLOAT_LIT          = 32
+	GoreParserIDENTIFIER         = 33
+	GoreParserVARIABLE           = 34
+	GoreParserFACT               = 35
+	GoreParserPLUS_PLUS          = 36
+	GoreParserMINUS_MINUS        = 37
+	GoreParserASSIGN             = 38
+	GoreParserHIGH_PRIORITY_MATH = 39
+	GoreParserLOW_PRIORITY_MATH  = 40
+	GoreParserBIT_OPER           = 41
+	GoreParserCOMPARE_OPER       = 42
+	GoreParserCONVERT_TYPE       = 43
+	GoreParserBINGO              = 44
+	GoreParserOCTAL_LIT          = 45
+	GoreParserHEX_LIT            = 46
+	GoreParserWS                 = 47
+	GoreParserCOMMENT            = 48
+	GoreParserTERMINATOR         = 49
+	GoreParserLINE_COMMENT       = 50
 )
 
 // GoreParser rules.
@@ -492,8 +490,8 @@ func (s *RuleIDContext) IDENTIFIER() antlr.TerminalNode {
 	return s.GetToken(GoreParserIDENTIFIER, 0)
 }
 
-func (s *RuleIDContext) VERSION() antlr.TerminalNode {
-	return s.GetToken(GoreParserVERSION, 0)
+func (s *RuleIDContext) FLOAT_LIT() antlr.TerminalNode {
+	return s.GetToken(GoreParserFLOAT_LIT, 0)
 }
 
 func (s *RuleIDContext) GetRuleContext() antlr.RuleContext {
@@ -561,7 +559,7 @@ func (p *GoreParser) RuleID() (localctx IRuleIDContext) {
 	{
 		p.SetState(48)
 
-		var _m = p.Match(GoreParserVERSION)
+		var _m = p.Match(GoreParserFLOAT_LIT)
 
 		localctx.(*RuleIDContext).version = _m
 	}
@@ -922,7 +920,7 @@ func (p *GoreParser) ConditionList() (localctx IConditionListContext) {
 	p.GetErrorHandler().Sync(p)
 	_la = p.GetTokenStream().LA(1)
 
-	for (((_la)&-(0x1f+1)) == 0 && ((1<<uint(_la))&((1<<GoreParserT__15)|(1<<GoreParserT__20)|(1<<GoreParserT__21)|(1<<GoreParserT__22)|(1<<GoreParserT__23)|(1<<GoreParserT__24)|(1<<GoreParserT__25)|(1<<GoreParserT__26)|(1<<GoreParserT__27)|(1<<GoreParserVARIABLE)|(1<<GoreParserFACT))) != 0) || (((_la-33)&-(0x1f+1)) == 0 && ((1<<uint((_la-33)))&((1<<(GoreParserDECIMAL_LIT-33))|(1<<(GoreParserRAW_STRING_LIT-33))|(1<<(GoreParserNIL_LIT-33))|(1<<(GoreParserFLOAT_LIT-33))|(1<<(GoreParserCONVERT_TYPE-33))|(1<<(GoreParserOCTAL_LIT-33))|(1<<(GoreParserHEX_LIT-33)))) != 0) {
+	for ((_la-16)&-(0x1f+1)) == 0 && ((1<<uint((_la-16)))&((1<<(GoreParserT__15-16))|(1<<(GoreParserT__20-16))|(1<<(GoreParserT__21-16))|(1<<(GoreParserT__22-16))|(1<<(GoreParserT__23-16))|(1<<(GoreParserT__24-16))|(1<<(GoreParserT__25-16))|(1<<(GoreParserT__26-16))|(1<<(GoreParserT__27-16))|(1<<(GoreParserDECIMAL_LIT-16))|(1<<(GoreParserRAW_STRING_LIT-16))|(1<<(GoreParserNIL_LIT-16))|(1<<(GoreParserFLOAT_LIT-16))|(1<<(GoreParserVARIABLE-16))|(1<<(GoreParserFACT-16))|(1<<(GoreParserCONVERT_TYPE-16))|(1<<(GoreParserOCTAL_LIT-16))|(1<<(GoreParserHEX_LIT-16)))) != 0 {
 		{
 			p.SetState(60)
 			p.expression(0)
@@ -1903,7 +1901,7 @@ func (p *GoreParser) ThenStmt() (localctx IThenStmtContext) {
 	p.GetErrorHandler().Sync(p)
 	_la = p.GetTokenStream().LA(1)
 
-	for (((_la)&-(0x1f+1)) == 0 && ((1<<uint(_la))&((1<<GoreParserT__4)|(1<<GoreParserT__5)|(1<<GoreParserT__7)|(1<<GoreParserVARIABLE))) != 0) || _la == GoreParserBINGO {
+	for (((_la)&-(0x1f+1)) == 0 && ((1<<uint(_la))&((1<<GoreParserT__4)|(1<<GoreParserT__5)|(1<<GoreParserT__7))) != 0) || _la == GoreParserVARIABLE || _la == GoreParserBINGO {
 		{
 			p.SetState(101)
 			p.Statement()
@@ -2933,7 +2931,7 @@ func (p *GoreParser) expression(_p int) (localctx IExpressionContext) {
 			p.Match(GoreParserT__17)
 		}
 
-	case GoreParserT__15, GoreParserT__22, GoreParserT__23, GoreParserT__24, GoreParserT__25, GoreParserT__26, GoreParserT__27, GoreParserVARIABLE, GoreParserFACT, GoreParserDECIMAL_LIT, GoreParserRAW_STRING_LIT, GoreParserNIL_LIT, GoreParserFLOAT_LIT, GoreParserCONVERT_TYPE, GoreParserOCTAL_LIT, GoreParserHEX_LIT:
+	case GoreParserT__15, GoreParserT__22, GoreParserT__23, GoreParserT__24, GoreParserT__25, GoreParserT__26, GoreParserT__27, GoreParserDECIMAL_LIT, GoreParserRAW_STRING_LIT, GoreParserNIL_LIT, GoreParserFLOAT_LIT, GoreParserVARIABLE, GoreParserFACT, GoreParserCONVERT_TYPE, GoreParserOCTAL_LIT, GoreParserHEX_LIT:
 		localctx = NewUnaryContext(p, localctx)
 		p.SetParserRuleContext(localctx)
 		_prevctx = localctx
@@ -3417,7 +3415,7 @@ func (p *GoreParser) UnaryExp() (localctx IUnaryExpContext) {
 			p.UnaryExp()
 		}
 
-	case GoreParserT__15, GoreParserT__22, GoreParserT__26, GoreParserT__27, GoreParserVARIABLE, GoreParserFACT, GoreParserDECIMAL_LIT, GoreParserRAW_STRING_LIT, GoreParserNIL_LIT, GoreParserFLOAT_LIT, GoreParserCONVERT_TYPE, GoreParserOCTAL_LIT, GoreParserHEX_LIT:
+	case GoreParserT__15, GoreParserT__22, GoreParserT__26, GoreParserT__27, GoreParserDECIMAL_LIT, GoreParserRAW_STRING_LIT, GoreParserNIL_LIT, GoreParserFLOAT_LIT, GoreParserVARIABLE, GoreParserFACT, GoreParserCONVERT_TYPE, GoreParserOCTAL_LIT, GoreParserHEX_LIT:
 		localctx = NewPrimaryContext(p, localctx)
 		p.EnterOuterAlt(localctx, 2)
 		{
@@ -3680,7 +3678,7 @@ func (p *GoreParser) PrimaryExp() (localctx IPrimaryExpContext) {
 	p.GetErrorHandler().Sync(p)
 
 	switch p.GetTokenStream().LA(1) {
-	case GoreParserT__15, GoreParserT__26, GoreParserT__27, GoreParserVARIABLE, GoreParserFACT, GoreParserDECIMAL_LIT, GoreParserRAW_STRING_LIT, GoreParserNIL_LIT, GoreParserFLOAT_LIT, GoreParserOCTAL_LIT, GoreParserHEX_LIT:
+	case GoreParserT__15, GoreParserT__26, GoreParserT__27, GoreParserDECIMAL_LIT, GoreParserRAW_STRING_LIT, GoreParserNIL_LIT, GoreParserFLOAT_LIT, GoreParserVARIABLE, GoreParserFACT, GoreParserOCTAL_LIT, GoreParserHEX_LIT:
 		localctx = NewOperContext(p, localctx)
 		p.EnterOuterAlt(localctx, 1)
 		{
@@ -4777,7 +4775,7 @@ func (p *GoreParser) Integer() (localctx IIntegerContext) {
 		p.SetState(227)
 		_la = p.GetTokenStream().LA(1)
 
-		if !(((_la-33)&-(0x1f+1)) == 0 && ((1<<uint((_la-33)))&((1<<(GoreParserDECIMAL_LIT-33))|(1<<(GoreParserOCTAL_LIT-33))|(1<<(GoreParserHEX_LIT-33)))) != 0) {
+		if !(((_la-29)&-(0x1f+1)) == 0 && ((1<<uint((_la-29)))&((1<<(GoreParserDECIMAL_LIT-29))|(1<<(GoreParserOCTAL_LIT-29))|(1<<(GoreParserHEX_LIT-29)))) != 0) {
 			p.GetErrorHandler().RecoverInline(p)
 		} else {
 			p.GetErrorHandler().ReportMatch(p)
@@ -4894,16 +4892,16 @@ func (p *GoreParser) Eos() (localctx IEosContext) {
 		p.EnterOuterAlt(localctx, 2)
 		p.SetState(230)
 
-		if !(lineTerminatorAhead()) {
-			panic(antlr.NewFailedPredicateException(p, "lineTerminatorAhead()", ""))
+		if !(p.lineTerminatorAhead()) {
+			panic(antlr.NewFailedPredicateException(p, "p.lineTerminatorAhead()", ""))
 		}
 
 	case 3:
 		p.EnterOuterAlt(localctx, 3)
 		p.SetState(231)
 
-		if !(checkPreviousTokenText("}")) {
-			panic(antlr.NewFailedPredicateException(p, "checkPreviousTokenText(\"}\")", ""))
+		if !(p.checkPreviousTokenText("}")) {
+			panic(antlr.NewFailedPredicateException(p, "p.checkPreviousTokenText(\"}\")", ""))
 		}
 
 	}
@@ -4969,10 +4967,10 @@ func (p *GoreParser) Expression_Sempred(localctx antlr.RuleContext, predIndex in
 func (p *GoreParser) Eos_Sempred(localctx antlr.RuleContext, predIndex int) bool {
 	switch predIndex {
 	case 9:
-		return lineTerminatorAhead()
+		return p.lineTerminatorAhead()
 
 	case 10:
-		return checkPreviousTokenText("}")
+		return p.checkPreviousTokenText("}")
 
 	default:
 		panic("No predicate with index: " + fmt.Sprint(predIndex))
