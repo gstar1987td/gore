@@ -1,5 +1,10 @@
 package core
 
+import (
+	"fmt"
+	"github.com/antlr/antlr4/runtime/Go/antlr"
+)
+
 const (
 	OpEqual          = "=="
 	OpLargerThen     = ">"
@@ -49,3 +54,9 @@ type Null struct{}
 func (n *Null) String() string {
 	return "null"
 }
+
+func getLocation(ctx antlr.ParserRuleContext) string {
+	return fmt.Sprintf("%d.%d", ctx.GetStart().GetLine(), ctx.GetStart().GetColumn())
+}
+
+type DataTypeNull struct{}

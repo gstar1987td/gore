@@ -12,6 +12,6 @@ func NewRunner() *Runner {
 	return &Runner{}
 }
 
-func (r *Runner) CompileRunner() error {
+func (r *Runner) CompileRunner(ctx *grammar.RunGoreContext) error {
 	return nil
 }

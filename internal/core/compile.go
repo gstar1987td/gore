@@ -73,16 +73,14 @@ func (c *Compiler) EnterRuleID(ctx *grammar.RuleIDContext) {
 
 // ExitConditionCheck is called when production conditionCheck is exited.
 func (c *Compiler) ExitConditionCheck(ctx *grammar.ConditionCheckContext) {
-	c.rule.Condition.context = ctx
-	if compileErr := c.rule.Condition.CompileCondition(); compileErr != nil {
+	if compileErr := c.rule.Condition.CompileCondition(ctx); compileErr != nil {
 		panic(fmt.Sprintf("compile condition error:%s", compileErr.Error()))
 	}
 }
 
 // ExitRunGore is called when production runGore is exited.
 func (c *Compiler) ExitRunGore(ctx *grammar.RunGoreContext) {
-	c.rule.Runner.context = ctx
-	if compileErr := c.rule.Runner.CompileRunner(); compileErr != nil {
+	if compileErr := c.rule.Runner.CompileRunner(ctx); compileErr != nil {
 		panic(fmt.Sprintf("compile run error:%s", compileErr.Error()))
 	}
 }

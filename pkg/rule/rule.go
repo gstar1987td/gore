@@ -10,9 +10,14 @@ type GoreRule struct {
 }
 
 func NewGoreRuleFromInput(ctx context.Context, input string) (*GoreRule, error) {
-
-	gore := &GoreRule{}
-
+	var compiler = core.NewCompiler()
+	rule, compileErr := compiler.CompileInput(ctx, input)
+	if compileErr != nil {
+		return nil, compileErr
+	}
+	gore := &GoreRule{
+		rule,
+	}
 	return gore, nil
 }
 

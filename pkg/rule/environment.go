@@ -1,8 +1,6 @@
-package env
+package rule
 
-import (
-	"gore/internal/interfaces"
-)
+import "gore/internal/interfaces"
 
 type Environment struct {
 	Loader  interfaces.DataLoader

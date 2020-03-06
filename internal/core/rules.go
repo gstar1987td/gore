@@ -7,7 +7,7 @@ type Rule struct {
 	Source      []byte
 	SymbolTable *SymbolTable
 
-	Condition *Condition
+	Condition *ConditionChecker
 	Runner    *Runner
 }
 
@@ -17,7 +17,7 @@ func NewRule() *Rule {
 		Version:     "",
 		Source:      nil,
 		SymbolTable: NewSymbolTable(),
-		Condition:   NewCondition(),
+		Condition:   NewConditionChecker(),
 		Runner:      NewRunner(),
 	}
 }
